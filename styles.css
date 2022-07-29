@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+  width: 70%;
+  margin: 50px auto;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 10px 0px;
+  color: blue;
+}
+
+h2 {
+  font-size: 35px;
+  margin: 10px auto;
+}
+
+h3 {
+  font-size: 25px;
+  margin: 10px auto;
+}
+
+h4 {
+  font-size: 20px;
+  margin: 0px;
+}
+
+a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+a:hover {
+  color: blue;
+  text-transform: uppercase;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+li {
+  list-style: none;
+}
+
+.buttons-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin: 30px;
+  border: solid 1px blue;
+  border-radius: 5px;
+  box-shadow: 0px 3px 7px 3px blue;
+}
+
+.button:hover {
+  text-transform: uppercase;
+  transition: 500ms;
+  background-color: orange;
+}
+
+/* about */
+
+.back-to-homepage {
+  text-decoration: underline;
+  margin-top: 40px;
+}
+
+.back-to-homepage:hover {
+  text-transform: none;
+}
+
+.about-me-heading {
+  margin: 70px 0 30px;
+}
+.text-container {
+  display: flex;
+  margin-bottom: 70px;
+}
+.text {
+  text-align: justify;
+  margin: 30px;
+}
+
+.contact-me-heading {
+  color: blue;
+  font-size: 40px;
+}
