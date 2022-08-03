@@ -71,6 +71,11 @@ li {
   background-color: var(--secondary-color);
 }
 
+.portfolio-index-image {
+  width: 100%;
+  height: auto;
+}
+
 /* about */
 
 .aboutme-container {
