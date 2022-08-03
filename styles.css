@@ -6,7 +6,6 @@
 
 body {
   text-align: center;
-  width: 70%;
   margin: 50px auto;
 }
 
@@ -18,7 +17,7 @@ h1 {
 
 h2 {
   font-size: 35px;
-  margin: 10px auto;
+  margin: 50px auto;
 }
 
 h3 {
@@ -74,9 +73,8 @@ li {
 
 /* about */
 
-.back-to-homepage {
-  text-decoration: underline;
-  margin-top: 40px;
+.aboutme-container {
+  margin: 30px auto;
 }
 
 .about-me-heading {
