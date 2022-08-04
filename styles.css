@@ -2,7 +2,10 @@
   --accent-color: rgb(0, 87, 183);
   --secondary-color: rgba(255, 215, 0, 0.5);
   --hover-transition: 0.7s;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+
+/* utility classes */
 
 body {
   text-align: center;
@@ -69,7 +72,7 @@ li {
   margin: 30px;
   border: solid 1px var(--accent-color);
   border-radius: 5px;
-  box-shadow: 0px 3px 7px 3px var(--accent-color);
+  box-shadow: var(--box-shadow);
 }
 
 .button:hover {
