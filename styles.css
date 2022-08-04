@@ -3,22 +3,23 @@
   --secondary-color: rgba(255, 215, 0, 0.5);
   --hover-transition: 0.7s;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --opacity: 85%;
 }
 
 body {
   text-align: center;
-  margin: 50px auto;
+  margin: auto;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 60px;
   margin: 10px 0px;
   color: var(--accent-color);
 }
 
 h2 {
   font-size: 35px;
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 h3 {
@@ -33,6 +34,21 @@ h4 {
 
 li {
   list-style: none;
+}
+
+a {
+  color: white;
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+a:hover {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.container {
+  margin: auto;
 }
 
 /* utility classes */
@@ -57,6 +73,14 @@ li {
 
 .bold {
   font-weight: bold;
+}
+
+.accent-colored {
+  color: var(--accent-color);
+}
+
+.opacity {
+  opacity: var(--opacity);
 }
 
 /* homepage */
@@ -110,9 +134,10 @@ li {
 .about-me-heading {
   margin: 70px 0 30px;
 }
+
 .text-container {
-  display: flex;
-  margin-bottom: 70px;
+  width: 60%;
+  margin: auto;
 }
 
 .portfolio-about-image {
@@ -121,14 +146,20 @@ li {
   margin: 10px;
 }
 
-.text {
+#contactme {
+  width: 40%;
+  margin: auto;
+  margin-top: 30px;
   text-align: justify;
-  margin: 15px;
-  background-color: var(--secondary-color);
-  padding: 10px;
 }
 
 .contact-me-heading {
   color: var(--accent-color);
-  font-size: 40px;
+  margin-bottom: 20px;
+  font-size: 60px;
+}
+
+.contact-link {
+  color: black;
+  display: inline;
 }
