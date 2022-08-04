@@ -47,6 +47,12 @@ li {
   list-style: none;
 }
 
+.portfolio-about-image {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
 /* homepage */
 
 .name-heading {
