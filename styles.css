@@ -31,19 +31,28 @@ h4 {
   margin: 0px;
 }
 
-a {
-  display: block;
-  padding: 10px 20px;
-}
-
 li {
   list-style: none;
 }
 
-.portfolio-about-image {
-  max-width: 100%;
-  height: auto;
-  margin: 10px;
+/* utility classes */
+.button-text {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.radiused {
+  border-radius: 5px;
+}
+
+.shadow {
+  box-shadow: var(--box-shadow);
+}
+
+.paddings {
+  padding: 10px;
 }
 
 /* homepage */
@@ -78,6 +87,16 @@ li {
   height: auto;
 }
 
+.portfolio-text {
+  text-align: justify;
+}
+
+.project-block {
+  box-shadow: var(--box-shadow);
+  margin: 10px;
+  padding: 10px;
+}
+
 /* about */
 
 .aboutme-container {
@@ -91,6 +110,13 @@ li {
   display: flex;
   margin-bottom: 70px;
 }
+
+.portfolio-about-image {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+}
+
 .text {
   text-align: justify;
   margin: 15px;
@@ -101,12 +127,4 @@ li {
 .contact-me-heading {
   color: var(--accent-color);
   font-size: 40px;
-}
-
-/* utility classes */
-.button-text {
-  text-decoration: none;
-  color: whitesmoke;
-  font-size: 16px;
-  font-weight: bold;
 }
