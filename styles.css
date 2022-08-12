@@ -136,7 +136,6 @@ a:hover {
 }
 
 .text-container {
-  width: 60%;
   margin: auto;
 }
 
@@ -160,4 +159,43 @@ a:hover {
 .contact-link {
   color: black;
   display: inline;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .me-description {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .greeting {
+    display: none;
+  }
+
+  .contact-me-heading {
+    font-size: 40px;
+  }
+
+  .project-image-container {
+    display: none;
+  }
+
+  .buttons-container {
+    display: block;
+  }
+
+  .button-text {
+    font-size: 20px;
+  }
+
+  .project-button {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }
